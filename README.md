@@ -26,7 +26,7 @@ cd src
 2.2 git the clone the two required repository's by the following commands:
 
 ```bash
-git clone https://github.com/nithishk03/astrorobotics_challenge.git .
+git clone https://github.com/nithishk03/astrorobotics_challenge.git
 git clone https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git aws-robomaker-small-warehouse-world
 ```
 
