@@ -27,7 +27,7 @@ cd src
 
 ```bash
 git clone https://github.com/nithishk03/astrorobotics_challenge.git
-git clone https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git aws-robomaker-small-warehouse-world
+git clone --branch ros2 https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git aws-robomaker-small-warehouse-world
 ```
 
 2.3 Return to the root directory:
