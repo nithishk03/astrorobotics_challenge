@@ -40,7 +40,6 @@ cd ..
 Run the following commands:
 
 ```bash
-rosws update
 rosdep install --from-paths . --ignore-src -r -y
 colcon build
 ```
