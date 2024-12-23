@@ -14,19 +14,20 @@ mkdir astrorobot_ws
 cd astrorobot_ws
 ```
 
-### Step 2: Create a .rosinstall File
+### Step 2: Download the required Repository's
 
-2.1 Create a .rosinstall file in the root directory of your workspace:
+2.1 Create a sub-folder called src
 
 
 ```bash
-gedit .rosinstall
+mkdir src
+cd src
 ```
-2.2 Add the following lines to .rosinstall:
+2.2 git the clone the two required repository's by the following commands:
 
 ```bash
-- git: {local-name: src, uri: 'https://github.com/nithishk03/astrorobotics_challenge.git', version: main}
-- git: {local-name: src/aws-robomaker-small-warehouse-world, uri: 'https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git', version: ros2}
+git clone https://github.com/nithishk03/astrorobotics_challenge.git .
+git clone https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git aws-robomaker-small-warehouse-world
 ```
 
 2.3 Save the .rosinstall file.
