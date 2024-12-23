@@ -4,7 +4,7 @@ This repository contains the solution for the Astrorobotics Challenge. Follow th
 
 ---
 
-## Setup Instructions
+### Setup Instructions
 
 ### Step 1: Create a Workspace
 Create a new workspace for the project:
